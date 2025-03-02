@@ -1,0 +1,15 @@
+@import '../_variables';
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  flex: 1;
+  background-color: $sidebar-bg;
+}
+
+.navbar {
+  flex: 4;
+  background-color: $navbar-bg;
+}
